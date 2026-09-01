@@ -6,4 +6,6 @@ def menu(options):
             return user_choice
     
         print(f'Invalid choice {user_choice}; choose from {options}')
-        
+
+c = menu(['a', 'b', 'c', 'd'])
+print(f'User chose {c}')
