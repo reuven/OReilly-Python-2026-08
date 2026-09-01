@@ -1,5 +1,4 @@
-print(f'Hello from mymod!')
-print(f'__name__ == {__name__}')
+print(f'Hello from {__name__}!')
 
 x = 100
 
@@ -10,5 +9,5 @@ z = 'hello from mymod'
 def hello(name):
     return f'Hello, {name}, from mymod!'
 
-print(f'Now leaving mymod!')
+print(f'Now leaving {__name__}!')
     
