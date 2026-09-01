@@ -1,4 +1,5 @@
 print(f'Hello from mymod!')
+print(f'__name__ == {__name__}')
 
 x = 100
 
