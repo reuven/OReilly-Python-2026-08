@@ -137,6 +137,18 @@ wheels = [
 ]
 
 [[package]]
+name = "better-calendar"
+version = "2.0.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f7/65/c22f56f6d09f6c382dc376db55f1054fcdef45f10d94af491006c1ebe46c/better_calendar-2.0.1.tar.gz", hash = "sha256:44d7cd355e3a531fbeb459063de828789404805508148b1c3791d06eb7cd4255", size = 1396061, upload-time = "2026-08-18T15:30:22.808Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/47/91/dab6030ac806ee861ef265a400ad77e8821c57753219c832cf08d2b9b94c/better_calendar-2.0.1-py3-none-any.whl", hash = "sha256:437ba1a7dd503e8cd489b6c76228f3ed4c68016206bb0047bf9d53ab89455b8a", size = 1701481, upload-time = "2026-08-18T15:30:21.304Z" },
+]
+
+[[package]]
 name = "bleach"
 version = "6.4.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1069,6 +1081,7 @@ name = "oreilly-python-2026-08"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "better-calendar" },
     { name = "gitautopush" },
     { name = "ipyparallel" },
     { name = "ipython" },
@@ -1083,6 +1096,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "better-calendar", specifier = ">=2.0.1" },
     { name = "gitautopush" },
     { name = "ipyparallel" },
     { name = "ipython" },

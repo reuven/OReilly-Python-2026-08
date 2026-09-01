@@ -13,4 +13,5 @@ dependencies = [
     "plotly",
     "pyarrow",
     "xlrd",
+    "better-calendar>=2.0.1",
 ]
